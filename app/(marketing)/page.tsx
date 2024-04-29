@@ -48,20 +48,20 @@ const MarketingPage = () => {
                 <h1 className="text-3xl md:text-6xl text-center text-neutral-100 mb-7 sm:mb-10">
                     Mosiac helps teams move 
                 </h1>
-                <div className="text-3xl text-black md:text-6xl bg-gradient-to-l from-green-600 to-green-300 px-4 py-2 rounded-md pb-2 pt-2 w-fit mb-7 sm:mb-10">
+                <div className="text-3xl text-black md:text-6xl bg-gradient-to-l from-green-600 to-green-300 px-4 py-2  pb-2 pt-2 w-fit mb-7 sm:mb-10 rounded-r-full">
                 10x faster.
                 </div>
                 
             </div>
             <div className={cn(
-                "text-sm md:text-xl lg:text-2xl text-neutral-400 mt-4 max-w-xs md:max-w-2xl text-center mx-auto",
+                "text-sm md:text-xl lg:text-2xl text-neutral-400 mt-4 max-w-xs md:max-w-2xl text-center mx-auto mb-6",
                 textFont.className,    
             )}>
                 Unleash teamwork, shatter productivity barriers.  From high-rises to home offices, it adapts to your flow. Get sh*t done with Mosiac.
             </div>
-            <Button className="mt-6 bg-green-600 hover:bg-green-500" size="lg"  asChild>
+            <Button variant="green_button" size="lg"  asChild>
                 <Link href="/sign-up">
-                    Use Mosiac for free
+                    Get Started for free
                 </Link>
             </Button>
         </div>

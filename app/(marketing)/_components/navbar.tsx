@@ -13,7 +13,7 @@ export const Navbar = () => {
                             Login                       
                         </Link>
                     </Button> 
-                    <Button className="hover:bg-green-600" size="sm" asChild>
+                    <Button variant="green_button" size="sm" asChild>
                     <Link href="/sign-up">
                         Try Mosiac for free!                      
                     </Link>
